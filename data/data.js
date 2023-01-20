@@ -3,7 +3,7 @@ import AWS from '../public/assets/aws.png';
 import CSS from '../public/assets/css.png';
 import Firebase from '../public/assets/firebase.png';
 import Github from '../public/assets/github.png';
-import GraphQL from '../public/assets/GraphQL.png';
+import GraphQL from '../public/assets/graphQL.png';
 import Javascript from '../public/assets/javascript.png';
 import MatplotLib from '../public/assets/matplotlib.png';
 import Mongo from '../public/assets/mongo.png';
