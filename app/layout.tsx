@@ -19,8 +19,9 @@ export default function RootLayout({
 	const [navBgColor, setNavBgColor] = useState(false);
 
 	const changeColor = () => {
-		if (window.scrollY >= 96) setNavBgColor(true);
-		else setNavBgColor(false);
+		if (typeof window !== undefined)
+			if (window.scrollY >= 96) setNavBgColor(true);
+			else setNavBgColor(false);
 	};
 
 	if (typeof window !== undefined)
