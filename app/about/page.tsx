@@ -118,7 +118,7 @@ const About = () => {
 	return (
 		<section
 			id='about'
-			className=' flex flex-col md:flex-row md:justify-between md:items-center w-full min-h-screen '
+			className=' flex flex-col md:flex-row md:mt-28 w-full min-h-screen'
 		>
 			{/* Hero About section */}
 			<div className='flex flex-col mb-20 w-full h-full mt-12 lg:mt-0 md:mr-10  '>
@@ -137,7 +137,7 @@ const About = () => {
 					></span>
 				</p>
 				<div className='mt-4 place-items-center'>
-					<p className='text-2xl tracking-wider font-sans '>
+					<p className='text-xl tracking-wider leading-8 font-sans '>
 						My name is{'  '}
 						<span className='font-extrabold text-3xl text-[#30D5C8] uppercase font-mono'>
 							Mark Okafor

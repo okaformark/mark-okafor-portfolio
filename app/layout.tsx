@@ -57,7 +57,7 @@ export default function RootLayout({
 					>
 						{children}
 					</main>
-					<div className='w-full bg-[#30D5C8] h-auto lg:fixed lg:bottom-0 mt-12 z-10'>
+					<div className='w-full bg-[#30D5C8] h-auto 2xl:fixed lg:bottom-0 mt-12 z-10'>
 						<Footer />
 					</div>
 				</div>
