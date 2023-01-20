@@ -23,7 +23,8 @@ export default function RootLayout({
 		else setNavBgColor(false);
 	};
 
-	if (window !== undefined) window.addEventListener('scroll', changeColor);
+	if (typeof window !== undefined)
+		window.addEventListener('scroll', changeColor);
 
 	return (
 		<html lang='en'>
