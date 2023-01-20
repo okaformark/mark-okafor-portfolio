@@ -1,7 +1,7 @@
 'use client';
 import Navbar from '../component/Navbar';
 import './globals.css';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { TimeLine } from '../component/timeline';
 import Footer from '../component/Footer';
 
@@ -24,8 +24,11 @@ export default function RootLayout({
 			else setNavBgColor(false);
 	};
 
-	if (typeof window !== undefined)
-		window.addEventListener('scroll', changeColor);
+	useEffect(() => {
+		if (typeof window !== undefined)
+			window.addEventListener('scroll', changeColor);
+		return () => window.removeEventListener('scroll', changeColor);
+	});
 
 	return (
 		<html lang='en'>
