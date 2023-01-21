@@ -6,5 +6,5 @@
 - ### Typed.JS
 - ### GSAP
 
-## Hosted [here](mark-porfolio.vercel.app/)
+## Hosted [here](https://mark-portfolio.vercel.app/).
 
